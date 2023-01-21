@@ -36,13 +36,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Acerca de mi</a>
+                        <a class="nav-link" href="#acerca_de_mi">Acerca de mi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Trabajos</a>
+                        <a class="nav-link" href="#trabajos">Trabajos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#contactos">Contacto</a>
                     </li>
 
                 </ul>
@@ -62,16 +62,19 @@
                     dignissimos labore sequi. Cupiditate reiciendis eius dolore, illum adipisci harum voluptas iste
                     mollitia inventore provident labore voluptatum nemo.
                 </p>
+    <!-- se agrega linea de codigo para solo linkear el acerca de mi -->
+    <form id="acerca_de_mi">
                 <div class="mb-5 pb-5">
                     <button class="btn btn-lg btn-outline-info text-light me-4">Trabajos</button>
                     <button class="btn btn-lg btn-info text-light">Contacto</button>
                 </div>
             </div>
         </div>
+    </form>
     </header>
 
     <!-- seccion principal -->
-    <section id="Acerca-de-mi" class="container text-center my-5">
+    <section class="container text-center my-5">
 
 
         <h2 class="display-3 fw-bold my-4">Acerca de mi</h2>
@@ -81,6 +84,7 @@
             earum itaque cum sequi, dolorem optio vol
         </p>
 
+     
 
         <div class="row">
             <div class="col-12 col-md-4">
@@ -103,7 +107,10 @@
                     aliquip ex ea commodo consequat.
                 </p>
             </div>
+            
             <div class="col-12 col-md-4">
+                <!-- se agrega linea de codigo solo para linkiar a la sección trabajos -->
+                <form id="trabajos"></form>
                 <i class="far fa-map fa-3x my-3"></i>
                 <h3 class="my-3 fw-bold">Bloggera de viajes</h3>
                 <p class="my-3">
@@ -112,12 +119,16 @@
                     ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ex ea commodo consequat.
                 </p>
+                
             </div>
         </div>
+        
+    
+
     </section>
 
     <!-- seccion de trabajos -->
-    <section id="Mis-trabajos" class="my-5 p-5 bg-info">
+    <section class="my-5 p-5 bg-info">
 
         <h2 class="display-4 fw-bold text-center text-light mb-3">Mis trabajos</h2>
 
@@ -189,7 +200,7 @@
             animi corporis dolorem qui magnam, aspernatur officiis quasi culpa tempora est commodi. Voluptate beatae
             tempora quaerat?</p>
 
-        <form>
+        <form id="contactos">
 
 
             <div class="form-group mb-4">
